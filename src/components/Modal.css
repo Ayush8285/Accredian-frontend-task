@@ -1,0 +1,106 @@
+/* Modal Container */
+.modal-container {
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px rgba(0, 255, 255, 0.3);
+    max-width: 400px;
+    margin: 10vh auto;
+    position: relative;
+    color: white;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+/*  Close Button */
+.close-btn {
+    position: absolute !important;
+    top: 10px !important;
+    right: 10px !important;
+    color: white !important;
+}
+
+/* Title & Subtitle */
+.modal-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #00ffff, #00ff99);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.modal-subtitle {
+    font-size: 1rem;
+    color: #b3c7e6;
+    margin-bottom: 1.5rem;
+}
+
+/* Input Background Turning White */
+.neon-input .MuiOutlinedInput-root {
+    background: rgba(255, 255, 255, 0.1) !important;  
+    color: white !important;
+    border-radius: 8px;
+    border: 2px solid rgba(0, 255, 255, 0.5);
+    transition: all 0.3s ease-in-out;
+}
+
+
+.neon-input .MuiOutlinedInput-root.Mui-focused,
+.neon-input .MuiOutlinedInput-root:hover,
+.neon-input .MuiOutlinedInput-root.Mui-focused:hover {
+    background: rgba(0, 255, 255, 0.15) !important; /* Slight glow effect */
+    border-color: #00ffff !important;
+    box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.6);
+}
+
+
+.neon-input .MuiOutlinedInput-root input {
+    color: white !important;
+}
+
+
+.neon-input .MuiOutlinedInput-root input:-webkit-autofill {
+    background: transparent !important;
+    -webkit-text-fill-color: white !important;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+
+.modal-form .neon-input {
+    margin-bottom: 1rem;
+}
+
+
+.neon-input .MuiInputLabel-root {
+    color: rgba(0, 255, 255, 0.8) !important;
+}
+
+
+/*  Submit Button */
+.submit-btn {
+    background: linear-gradient(90deg, #00ffff, #00ff99);
+    font-weight: bold;
+    border-radius: 8px;
+    text-transform: uppercase;
+    padding: 12px 0;
+    transition: all 0.3s ease-in-out;
+    margin-top: 1.5rem;
+}
+
+.submit-btn:hover {
+    background: linear-gradient(90deg, #00ff99, #00ffff);
+    box-shadow: 0px 0px 15px rgba(0, 255, 255, 0.7);
+}
+
+/*  Character Counter */
+.char-count {
+    font-size: 0.9rem;
+    color: #b3c7e6;
+    position: absolute;
+    right: 10px;
+    bottom: -20px;
+}
+
+
+
